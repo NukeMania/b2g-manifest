@@ -3,7 +3,7 @@
 
   <remote name="aosp" fetch="https://android.googlesource.com/"/>
   <remote name="b2g" fetch="git://github.com/mozilla-b2g/"/>
-  <remote name="linaro" fetch="https://android.googlesource.com/"/>
+  <remote name="linaro" fetch="http://android.git.linaro.org/git-ro/"/>
   <remote name="mozilla" fetch="git://github.com/mozilla/"/>
   <remote name="mozillaorg" fetch="https://git.mozilla.org/releases"/>
   <remote name="sola" fetch="https://github.com/sola-dolphin1/"/>
@@ -86,7 +86,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" revision="300105d1487f5238940c18792b879793826b61f4"/>
   <project path="libcore" name="platform/libcore" revision="fc294a48d80d9e2b2ac126edf93ad316f5f6cf72"/>
   <project path="ndk" name="platform/ndk" revision="2d77f5a05f60029c981f299b222cfe28db18ccf7"/>
-  <project path="prebuilt" name="platform/prebuilt" revision="0e104261b6d33f87e9f86ff4249bcc0306ab278b"/>
+  <project path="prebuilt" name="platform/prebuilt" remote="aosp" revision="0e104261b6d33f87e9f86ff4249bcc0306ab278b"/>
   <project path="system/bluetooth" name="platform/system/bluetooth" revision="2588cd802f322650ed737dfb7a10e9ad94064e99"/>
   <project path="system/core" name="android_system_core" remote="cm" revision="ics"/>
   <project path="system/extras" name="platform/system/extras" revision="fa351ab265957fa8815df3c4ca1f3c105f253e8b"/>
@@ -117,3 +117,4 @@
   <project path="vendor/qcom/opensource/kernel-tests/mm-audio" name="android_vendor_qcom_opensource_kernel-tests_mm-audio" remote="cm" revision="ics"/>
 
 </manifest>
+
