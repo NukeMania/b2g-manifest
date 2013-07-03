@@ -3,13 +3,13 @@
 
   <remote name="aosp" fetch="https://android.googlesource.com/"/>
   <remote name="b2g" fetch="git://github.com/mozilla-b2g/"/>
-  <remote name="linaro" fetch="http://android.git.linaro.org/git-ro"/>
+  <remote name="linaro" fetch="https://android.googlesource.com/"/>
   <remote name="mozilla" fetch="git://github.com/mozilla/"/>
   <remote name="mozillaorg" fetch="https://git.mozilla.org/releases"/>
   <remote name="sola" fetch="https://github.com/sola-dolphin1/"/>
   <remote name="NukeMania" fetch="https://github.com/NukeMania/"/>
   <remote name="cm" fetch="https://github.com/CyanogenMod/"/>
-  <default revision="refs/tags/android-4.0.4_r2.1" remote="linaro" sync-j="4"/>
+  <default revision="refs/tags/android-4.0.4_r1.2" remote="linaro" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
   <project path="build" name="platform_build" remote="NukeMania" revision="67f2ef1bc7632435655dab66b511c74b50c52f2d" upstream="v1-train">
