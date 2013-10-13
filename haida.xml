@@ -24,7 +24,7 @@
   <project path="multilocale" name="multilocale" remote="b2g" revision="master"/>
 
   <!-- Stock Android things -->
-  <project path="abi/cpp" name="platform/abi/cpp" revision="6426040f1be4a844082c9769171ce7f5341a5528"/>
+  <project path="abi/cpp" name="platform/abi/cpp" revision="master"/>
   <project path="bionic" name="android_bionic" remote="cm" revision="ics"/>
   <project path="bootable/recovery" name="platform/bootable/recovery" revision="fadc5ac81d6400ebdd041f7d4ea64021596d6b7d"/>
   <project path="device/common" name="device/common" revision="7d4526582f88808a3194e1a3b304abb369d2745c"/>
