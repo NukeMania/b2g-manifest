@@ -93,7 +93,7 @@
   <project path="system/media" name="platform/system/media"/>
   <project path="system/netd" name="platform/system/netd"/>
   <project path="system/vold" name="platform/system/vold"/>
-  <project path="external/busybox" name="platform/external/busybox" remote="linaro"/>
+  <project path="external/busybox" name="platform/external/busybox" remote="linaro" revision="2e461c8029a50d986dfe4ab07ae5a1834b5c40f0"/>
 
 
   <!-- Xperia Arc things -->
